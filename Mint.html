@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your order</title>
+
+<head>
+    <script>
+        window.onload = function () {
+            document.getElementById("centerDiv").style.display = "block";
+        };
+    </script>
+    <style>
+        body {
+            /* background-image: url("background.jpg"); */
+            background-color: #122138;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-drag: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            pointer-events: none;
+        }
+
+        .bg-blur {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(10px);
+        }
+
+        .center-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 780px;
+            height: auto;
+            border: 5px solid #30445c;
+            border-radius: 6px;
+            box-shadow: 4px 4px 10px black;
+        }
+
+        .center-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: auto;
+        }
+
+        .center-div:hover {
+            box-shadow: 4px 5px 20px black;
+        }
+
+        .Icecream {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: auto;
+            filter: drop-shadow(4px 4px 15px black);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-blur"></div>
+    <div class="center-div">
+        <a href=""><img src="Icecream img/Final.jpg" alt="Image" class="center-img"></a>
+        <img src="Icecream img/Mint.png" alt="Mint Ice Cream" class="Icecream">
+    </div>
+</body>
+
+</html>

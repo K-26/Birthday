@@ -1,0 +1,26 @@
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <title>Happy Birthday</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        width: auto;
+        height: auto;
+    }
+</style>
+
+<body>
+    <img src="img/Birthday.svg" alt="a balloon">
+</body>
+
+</html> -->
