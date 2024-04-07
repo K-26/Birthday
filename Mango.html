@@ -3,6 +3,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Your order</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
 
 <head>
     <script>
@@ -14,6 +17,7 @@
         body {
             /* background-image: url("background.jpg"); */
             background-color: #122138;
+            /* background-color: #003566; */
             user-select: none;
             -moz-user-select: none;
             -webkit-user-drag: none;
@@ -36,8 +40,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 80%;
-            max-width: 780px;
+            width: 90%;
+            max-width: 710px;
             height: auto;
             border: 5px solid #30445c;
             border-radius: 6px;
@@ -56,6 +60,32 @@
             box-shadow: 4px 5px 20px black;
         }
 
+        .menu {
+            position: absolute;
+            bottom: -48px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        .menu button {
+            background-color: #026ba4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Playfair Display', serif;
+            cursor: pointer;
+            pointer-events: visible;
+        }
+
+        .menu #b1 a {
+            text-decoration: none;
+            color: white;
+        }
         .Icecream {
             position: absolute;
             top: 60%;
@@ -71,8 +101,11 @@
 <body>
     <div class="bg-blur"></div>
     <div class="center-div">
-        <a href=""><img src="Icecream img/Final.jpg" alt="Image" class="center-img"></a>
+        <img src="Icecream img/Final.jpg" alt="Image" class="center-img">
         <img src="Icecream img/Mango.png" alt="Mango Ice Cream" class="Icecream">
+        <div class="menu">
+            <a href="google.com"><button id="b1">One Last Thing</button></a>
+        </div>
     </div>
 </body>
 
