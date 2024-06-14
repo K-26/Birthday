@@ -31,6 +31,21 @@
             width: 300px;
             align-items: center;
         }
+        button {
+            background-color: #026ba4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Playfair Display', serif;
+            cursor: pointer;
+            pointer-events: visible;
+        }
+        #b1 a {
+            text-decoration: none;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -41,6 +56,15 @@
             <div id="hintContainer">
                 <img src="img/Hint.png" alt="Hint">
             </div>
+            <button id="b1">Enter Password</button>
+
+            <script>
+                document.getElementById('b1').addEventListener('click', function() {
+                    window.open('password.html', '_blank');
+                });
+            </script>
+            
+
         </div>
     </div>
 </body>
